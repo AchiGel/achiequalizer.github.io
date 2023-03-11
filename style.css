@@ -46,6 +46,9 @@ section div p {
 
 main {
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .bg {
@@ -63,7 +66,6 @@ main {
 .mobile {
   width: 208.97px;
   height: 430px;
-  margin-left: 15%;
 }
 
 .container {

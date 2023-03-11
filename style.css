@@ -257,6 +257,7 @@ ul {
     height: 100dvh;
     position: relative;
     margin-bottom: 26%;
+    display: block;
   }
 
   .bg {
@@ -422,6 +423,7 @@ ul {
     box-sizing: border-box;
     position: relative;
     margin-bottom: 15%;
+    display: block;
   }
 
   .bg {

@@ -215,7 +215,7 @@ ul {
     background-image: url(./assets/bg-pattern-1.svg),
       url(./assets/bg-main-tablet.png);
     background-repeat: no-repeat, no-repeat;
-    background-position: 56vh -4vw, -12vh -18vw;
+    background-position: 107% -26%, -12vh -18vw;
     background-size: 266px 400px, 100%;
     background-color: #fcfaf9;
   }
@@ -255,6 +255,7 @@ ul {
     box-sizing: border-box;
     height: 100dvh;
     position: relative;
+    margin-bottom: 15%;
   }
 
   .bg {

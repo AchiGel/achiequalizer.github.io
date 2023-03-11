@@ -518,7 +518,7 @@ ul {
   }
 
   footer {
-    padding: 0 165px 91px;
+    padding: 0 165px 0;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;

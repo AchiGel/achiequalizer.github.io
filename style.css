@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
 
-section {
-  box-sizing: border-box;
+body {
   background-image: url(./assets/bg-main-mobile.png);
   background-repeat: no-repeat;
-  background-position: -5vh -51vw;
+  background-position: right top;
+  background-size: 90%;
   background-color: #fcfaf9;
+}
+
+section {
+  box-sizing: border-box;
 }
 
 strong {
@@ -18,7 +22,7 @@ section div {
 }
 
 section img {
-  margin: 40px 0 64px 24px;
+  margin: 40px 0 64px 1.5em;
 }
 
 section div h1 {
@@ -31,7 +35,7 @@ section div h1 {
   line-height: 48px;
   letter-spacing: -0.454545px;
   color: #191826;
-  margin-left: 24px;
+  margin-left: 0.6em;
   margin-bottom: 20px;
 }
 
@@ -44,7 +48,7 @@ section div p {
   font-size: 16px;
   line-height: 26px;
   color: #191826;
-  margin-left: 24px;
+  margin-left: 1.5em;
   margin-bottom: 68px;
 }
 
@@ -204,7 +208,7 @@ main {
 }
 
 footer {
-  padding: 64px 24px 81px;
+  padding: 64px 1.5em 81px;
 }
 
 footer img {
@@ -240,12 +244,6 @@ footer ul li img:hover {
 @media (min-width: 768px) {
   section {
     box-sizing: border-box;
-    background-image: url(./assets/bg-pattern-1.svg),
-      url(./assets/bg-main-tablet.png);
-    background-repeat: no-repeat, no-repeat;
-    background-position: 107% -26%, -12vh -18vw;
-    background-size: 266px 400px, 100%;
-    background-color: #fcfaf9;
   }
 
   section img {
@@ -283,7 +281,7 @@ footer ul li img:hover {
     box-sizing: border-box;
     position: relative;
     display: flex;
-    height: 100vw;
+    height: 105vw;
     flex-direction: column;
     align-items: center;
   }
@@ -315,7 +313,7 @@ footer ul li img:hover {
     border-radius: 12px;
     position: absolute;
     top: 30vw;
-    left: 60vh;
+    left: 17em;
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -412,7 +410,7 @@ footer ul li img:hover {
     background-image: url(./assets/bg-pattern-1.svg);
     background-repeat: no-repeat;
     background-position: right -7%;
-    background-size: 312px;
+    background-size: 20%;
     background-color: transparent;
   }
 
@@ -431,7 +429,7 @@ footer ul li img:hover {
     letter-spacing: -1px;
     color: #191826;
     margin-left: 165px;
-    margin-bottom: 40px;
+    margin-bottom: 1em;
   }
 
   section div p {
@@ -554,6 +552,7 @@ footer ul li img:hover {
     justify-content: space-between;
     align-items: flex-start;
     margin: 0;
+    gap: 5%;
   }
 
   footer div {
